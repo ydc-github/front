@@ -61,9 +61,6 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
-.app-container{
-  background: #545c64;
-}
 .header {
   float: right;
 }

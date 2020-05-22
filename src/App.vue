@@ -57,22 +57,12 @@ export default {
 
 .el-footer {
   background-color: #B3C0D1;
-  color: #333;
   text-align: center;
   line-height: 60px;
 }
 
-.el-aside {
-  background-color: #E5E8ED;
-  color: #333;
-  text-align: center;
-  /* line-height: 800px; */
-}
-
 .el-main {
   background-color: #E9EEF3;
-  color: #333;
-  text-align: center;
 }
 
 body>.el-container {

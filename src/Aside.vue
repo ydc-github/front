@@ -45,12 +45,20 @@ export default {
     }
   },
   components: {
+  },
+  methods: {
+    handleOpen (key, keyPath) {
+      console.log(key, 'keyPath:' + keyPath)
+    },
+    handleClose (key, keyPath) {
+      console.log(key, 'keyPath:' + keyPath)
+    }
   }
 }
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
 .el-menu-vertical-demo{
-  background-color: #606266;
+  //background-color: #CEF7BB;
 }
 </style>
